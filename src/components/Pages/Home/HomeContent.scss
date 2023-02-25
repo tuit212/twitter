@@ -1,0 +1,9 @@
+.home__item {
+    padding: 20px 25px 30px 25px; 
+}
+.home__item-top{
+
+    & > div >  .fa-solid{
+        font-size: 22px;
+    }
+}
