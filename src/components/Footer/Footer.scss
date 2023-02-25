@@ -4,5 +4,23 @@
     height: 100vh;
     position: fixed;
     right: 0;
-    background-color: royalblue;
+    padding: 28px;
+    box-shadow: #1DA1F2 0px 5px 5px;
+
+    .footer {
+
+        &__top{
+            position: relative;
+
+            & > input {
+                border: none;
+                outline: none;
+            }
+
+            & > .fa-solid{
+                position: absolute;
+                left: 20px;
+            }
+        }
+    }
 }

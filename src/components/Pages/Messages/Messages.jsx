@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react' 
+import "./Messages.scss"
 
 function Messages() {
     return (
-        <div>
+        <div className='site-messages'>
             Messages
         </div>
     )

@@ -4,7 +4,12 @@ import "./Footer.scss"
 function Footer() {
     return (
         <footer className='site-footer'>
-            Footer
+            <div className="footer">
+                <form className="footer__top">
+                    <input type="text" placeholder='Search Twitter' />
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </form>
+            </div>
         </footer>
     )
 }

@@ -1,8 +1,9 @@
 import React from 'react'
+import "./Notefications.scss"
 
 function Notifications() {
     return (
-        <div>
+        <div className='site-note'>
             Notifications
         </div>
     )

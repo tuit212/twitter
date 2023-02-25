@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react' 
+import "./Bookmark.scss"
 
 function Bookmarks() {
     return (
-        <div>
+        <div className='site-bookmark'>
             Bookmarks
         </div>
     )

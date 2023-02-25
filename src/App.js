@@ -10,6 +10,7 @@ import Lists from "./components/Pages/Lists/Lists"
 import Profile from "./components/Pages/Profile/Profile"
 import More from "./components/Pages/More/More"
 import Footer from "./components/Footer/Footer";
+import NotFound from "./components/Common/404/NotFound";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/lists" element={<Lists/>} />
         <Route path="/profile" element={<Profile/>} />
         <Route path="/more" element={<More/>} />
+        <Route path="*" element={<NotFound/>}/>
       </Routes>
       <Footer/>
     </div>

@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react' 
+import "./Explore.scss"
 
 function Explore() {
     return (
-        <div>
+        <div className='site-explore'>
             Explore
         </div>
     )

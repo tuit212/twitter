@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react' 
+import "./More.scss"
 
 function More() {
     return (
-        <div>
+        <div className='site-more'>
             More
         </div>
     )
