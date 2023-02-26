@@ -11,6 +11,10 @@ import Profile from "./components/Pages/Profile/Profile"
 import More from "./components/Pages/More/More"
 import Footer from "./components/Footer/Footer";
 import NotFound from "./components/Common/404/NotFound";
+import Tweets from "./components/Pages/Profile/Tweets/Tweets";
+import TweetsReplis from "./components/Pages/Profile/TweetsReplis/TweetsReplis"
+import Media from "./components/Pages/Profile/Media/Media"
+import Like from "./components/Pages/Profile/Like/Like"
 
 function App() {
   return (
@@ -23,7 +27,12 @@ function App() {
         <Route path="/messages" element={<Messages/>} />
         <Route path="/bookmarks" element={<Bookmarks/>} />
         <Route path="/lists" element={<Lists/>} />
-        <Route path="/profile" element={<Profile/>} />
+        <Route path="/profile" element={<Profile/>}>
+          <Route path="/profile" element={<Tweets/>} />
+          <Route path="/profile/tweets_replies" element={<TweetsReplis/>} />
+          <Route path="/profile/media" element={<Media/>} />
+          <Route path="/profile/like"  element={<Like/>} />
+        </Route>
         <Route path="/more" element={<More/>} />
         <Route path="*" element={<NotFound/>}/>
       </Routes>
