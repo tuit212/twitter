@@ -3,6 +3,7 @@ import "./Footer.scss"
 
 function Footer() {
     return (
+        
         <footer className='site-footer'>
             <div className="footer">
                 <form className="footer__top">

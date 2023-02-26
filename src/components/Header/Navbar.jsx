@@ -1,12 +1,5 @@
 import React from 'react' 
 import { NavLink } from 'react-router-dom'
-import Home from "../../Assets/Img/home.svg"
-import Explore from "../../Assets/Img/explore.svg"
-import Notification from "../../Assets/Img/Notification.svg"
-import Messages from "../../Assets/Img/Messages.svg"
-import Bookmarks from "../../Assets/Img/Bookmarks.svg"
-import Lists from "../../Assets/Img/Lists.svg"
-import Profile from "../../Assets/Img/Prome.svg"
 import More from "../../Assets/Img/More.svg"
 
 
@@ -15,35 +8,35 @@ function Navbar() {
     return (
         <nav className='navbar'>
             <NavLink to={"/"} className='navbar__link'>
-                <img src={Home} alt="home" width={"28px"}/>
+                <i class="fa fa-house Left-item_Home"></i> 
                 <span>Home</span>
             </NavLink>
             <NavLink to={"/explore"} className='navbar__link'>
-                <img src={Explore} alt="home" width={"28px"}/>
+                <i class="fa fa-hashtag Left_item-Explore"></i>
                 <span>Explore</span>
             </NavLink>
             <NavLink to={"/notification"} className='navbar__link'>
-                <img src={Notification} alt="home" width={"28px"}/>
+                <i class="fa fa-bell Left_item_Notifications"></i>
                 <span>Notification</span>
             </NavLink>
             <NavLink to={"/messages"} className='navbar__link'>
-                <img src={Messages} alt="home" width={"28px"}/>
+                <i class="fa-solid fa-message Left_item_Messages"></i>
                 <span>Messages</span>
             </NavLink>
             <NavLink to={"/bookmarks"} className='navbar__link'>
-                <img src={Bookmarks} alt="home" width={"28px"}/>
+                <i class="fa fa-bookmark Left_item_Bookmarks"></i>
                 <span>Bookmarks</span>
             </NavLink>
             <NavLink to={"/lists"} className='navbar__link'>
-                <img src={Lists} alt="home" width={"28px"}/>
+                <i class="fa fa fa-list Left_item_Lists"></i> 
                 <span>Lists</span>
             </NavLink>
             <NavLink to={"/profile"} className='navbar__link'>
-                <img src={Profile} alt="home" width={"28px"}/>
+                <i class="fa fa-user Left_item_Profile"></i> 
                 <span>Profile</span>
             </NavLink>
             <NavLink to={"/more"} className='navbar__link'>
-                <img src={More} alt="home" width={"28px"}/>
+                <img src={More} alt="home" width={"20px"}/>
                 <span>More</span>
             </NavLink>
         </nav>

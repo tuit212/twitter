@@ -2,8 +2,71 @@
     padding: 20px 25px 30px 25px; 
 }
 .home__item-top{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    #content{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        & > .home__item-top-content{
+
+            #content-text{
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 27px;
+            }
+
+            #content-email{
+                font-weight: 400;
+                line-height: 24px;
+                font-size: 18px;
+                opacity: 0.7;
+                margin-left: 10px;
+                color: #000;
+            }
+
+            & > p {
+                font-weight: 400;
+                line-height: 24px;
+                font-size: 18px;
+            }
+        }
+    }
 
     & > div >  .fa-solid{
         font-size: 22px;
+        cursor: pointer;
     }
+}
+
+.home__item-static {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-left: 80px;
+    margin-top: 15px;
+
+    & > div {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+        color: #536471;
+
+        & > span {
+            font-weight: 400;
+            line-height: 21px;
+            font-size: 16px;
+            color: #536471;
+        }
+    }
+}
+
+.home__img{
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

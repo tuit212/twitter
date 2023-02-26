@@ -43,9 +43,12 @@
         width: 100%;
         margin-left: 20px;
         border: 1px solid transparent;
+        border-radius: 7px;
+        transition: all 0.3s ease-in-out;;
 
         &:focus{
             border: 1px solid #1D9BF0;
+
         }
 
         &:valid{
