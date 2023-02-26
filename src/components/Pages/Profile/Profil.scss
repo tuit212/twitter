@@ -2,6 +2,63 @@
     margin-left: 300px;
     max-width: 936px;
     width: 100%;
-    background-color: red;
-    text-align: center;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.profile {
+    position: relative;
+}
+.profile__head{
+    padding: 22px 30px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    & > div {
+
+        & > i {
+            cursor: pointer;
+        }
+
+        & > span {
+            font-weight: 700;
+            line-height: 27px;
+            font-size: 20px;
+            color: #000;
+        }
+
+        & > p {
+            font-weight: 400;
+            line-height: 21px;
+            font-size: 16px;
+            color: #000000;
+        }
+    }
+}
+
+.profile__background {
+    width: 100%;
+
+    & > img {
+        width: 100%;
+    }
+}
+.profile__edit-head {
+    position: absolute;
+    // bottom: -70px;
+    top: 310px;
+    left: 25px;
+}
+.profile__edit-btn {
+    border-radius: 50px;
+    padding: 10px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 18px;
+    color: #000000;
+    cursor: pointer;
+    position: absolute;
+    right: 25px;
+    margin-top: 25px;
 }
