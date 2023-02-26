@@ -8,16 +8,17 @@ function ProfileNavbar() {
             <NavLink to={"/profile"} className='profile__navbar'>
                 Tweets
             </NavLink>
-            <NavLink to={"/profile/tweets_replies"} className='profile__navbar'>
+            <NavLink to={"tweets_replies"} className='profile__navbar'>
                 Tweets & replies
             </NavLink>
-            <NavLink to={"/profile/media" } className='profile__navbar'>
+            <NavLink to={"media" } className='profile__navbar'>
                 Media
             </NavLink>
-            <NavLink to={"/profile/like" } className='profile__navbar'>
+            <NavLink to={"like" } className='profile__navbar'>
                 Likes
             </NavLink>
         </div>
+        
     )
 }
 

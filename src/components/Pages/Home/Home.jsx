@@ -12,14 +12,14 @@ import HomeContent from './HomeContent'
 
 function Home() {
 
-    const homeArr = [
-        {
-            name: "Designsta",
-            img : "../../../Assets/Img/person.svg",
-            inputValue : "Designsta / person / person.svg    / person.svg / person.svg / person.svg / person.svg",
-            email : "Designsta@gmail.com",
-        }
-    ]
+    // const homeArr = [
+    //     {
+    //         name: "Designsta",
+    //         img : "../../../Assets/Img/person.svg",
+    //         inputValue : "Designsta / person / person.svg    / person.svg / person.svg / person.svg / person.svg",
+    //         email : "Designsta@gmail.com",
+    //     }
+    // ]
 
     return (
         <main className='site-home'>

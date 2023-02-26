@@ -5,21 +5,32 @@
     position: fixed;
     right: 0;
     padding: 28px;
+    background-color: #fff;
     box-shadow: #1DA1F2 0px 5px 5px;
+    overflow-y: auto;
 
     .footer {
+        width: 100%;
 
         &__top{
             position: relative;
+            width: 100%;
 
             & > input {
                 border: none;
                 outline: none;
+                border-radius: 31px;
+                background: #EFF3F4;
+                width: 100%;
+                padding: 15px 15px 15px 50px;
             }
 
             & > .fa-solid{
                 position: absolute;
                 left: 20px;
+                top: 15px;
+                cursor: pointer;
+                color: #5C6C79;
             }
         }
     }

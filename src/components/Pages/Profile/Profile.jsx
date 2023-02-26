@@ -6,6 +6,7 @@ import person from "../../../Assets/Img/person.svg"
 import born from "../../../Assets/Img/profile/born.svg"
 import ProfileNavbar from './ProfileNavbar'
 import ProfileLine from './ProfileLine'
+import Tweets from './Tweets/Tweets'
 
 
 function Profile() {
@@ -72,6 +73,7 @@ function Profile() {
                 </div>
                 <ProfileNavbar/>
                 <ProfileLine/>
+                <Tweets/>
             </div>
         </div>
     )
