@@ -15,6 +15,7 @@ import Tweets from "./components/Pages/Profile/Tweets/Tweets";
 import TweetsReplis from "./components/Pages/Profile/TweetsReplis/TweetsReplis"
 import Media from "./components/Pages/Profile/Media/Media"
 import Like from "./components/Pages/Profile/Like/Like"
+import Login from "./components/Login/Login";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/" element={<Home/>} />
+        <Route path="/" element={<Login/>} />
         <Route path="/explore" element={<Explore/>} />
         <Route path="/notification" element={<Notifications/>} />
         <Route path="/messages" element={<Messages/>} />
